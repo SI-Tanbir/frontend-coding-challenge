@@ -6,3 +6,5 @@ export default function ProductsRoot() {
 return  <Suspense fallback={<div>Loading products...</div>}>
 <Products />
 </Suspense>;
+
+}
